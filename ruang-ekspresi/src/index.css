@@ -1,0 +1,24 @@
+/* src/index.css */
+
+/* Font Poppins harus diletakkan SEBELUM Tailwind */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Import Tailwind CSS */
+@import "tailwindcss";
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #1864AB; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #155a8a; }
+
+/* small util if you want a subtle card shadow fallback */
+.card-fallback-shadow {
+  box-shadow: 0 8px 24px rgba(13, 38, 66, 0.08);
+}

@@ -1,0 +1,11 @@
+.navItem {
+  transition: all 0.3s ease;
+}
+
+.navItem:hover {
+  background-color: #f9fafb;
+}
+
+.activeLine {
+  border-color: #374151;
+}
